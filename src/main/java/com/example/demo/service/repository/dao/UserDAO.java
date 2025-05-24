@@ -1,7 +1,7 @@
-package com.example.demo.repository.dao;
+package com.example.demo.service.repository.dao;
 
 import com.example.demo.entity.User;
-import com.example.demo.repository.DatabaseConnection;
+import com.example.demo.service.repository.DatabaseConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

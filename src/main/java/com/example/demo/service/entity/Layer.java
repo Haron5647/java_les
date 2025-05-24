@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.service.entity;
 
 public class Layer {
     private int layerId;

@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.service.repository;
 
 import com.example.demo.service.entity.UserData;
 import com.example.demo.service.entity.UserRegisterData;
