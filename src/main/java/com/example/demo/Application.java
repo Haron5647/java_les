@@ -1,11 +1,18 @@
 package com.example.demo;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+import jakarta.servlet.ServletContextEvent;
 
-@SpringBootApplication
-public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+@WebListener
+public class Application implements ServletContextListener {
+    @Override
+    public void contextInitialized(ServletContextEvent sce) {
+        // Application startup logic here
+    }
+
+    @Override
+    public void contextDestroyed(ServletContextEvent sce) {
+        // Cleanup logic here
     }
 }
